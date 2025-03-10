@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 export default {
-  title: "Button",
+  title: "Form/Button",
   component: Button,
   argTypes: {
     children: { control: "text" }, // Allows text editing in Storybook
