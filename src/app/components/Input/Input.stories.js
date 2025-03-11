@@ -23,3 +23,5 @@ export const Sample = Template.bind({});
 Sample.args = {
   size: "medium",
 };
+
+Large.storyName = "Large input"; // can rename the story by using this method
