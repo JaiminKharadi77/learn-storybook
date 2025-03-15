@@ -4,6 +4,7 @@ import Button from "./Button";
 export default {
   title: "Form/Button",
   component: Button,
+  // decorators: [(story) => <div className="flex justify-center">{story()}</div>], // Can wrap entire compoennt like this 
   argTypes: {
     children: { control: "text" }, // Allows text editing in Storybook
     variant: {
